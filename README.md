@@ -2,7 +2,7 @@
 
 A simple ball bouncing program in Java.
 
-![image info](./readmeImage.png)
+![image info](Images/preview.png)
 
 ## Keyboard
 **Space** for adding a ball. \
