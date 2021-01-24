@@ -1,8 +1,8 @@
 import javax.swing.*;
 
-public class SimpelBallBouncer extends JFrame {
+public class SimpleBallBouncer extends JFrame {
 
-    public SimpelBallBouncer(){
+    public SimpleBallBouncer(){
         initUI();
     }
 
@@ -11,13 +11,13 @@ public class SimpelBallBouncer extends JFrame {
         setResizable(false);
         pack();
 
-        setTitle("Simpel Ball Bouncer");
+        setTitle("Simple Ball Bouncer");
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public static void main(String[] args){
-        JFrame frame = new SimpelBallBouncer();
+        JFrame frame = new SimpleBallBouncer();
         frame.setVisible(true);
     }
 }
