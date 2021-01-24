@@ -1,4 +1,4 @@
-# Simpel Ball Bouncer
+# Simple Ball Bouncer
 
 A simple ball bouncing program in Java.
 
