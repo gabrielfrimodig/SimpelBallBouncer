@@ -11,8 +11,8 @@ public class Ball implements Commons{
     }
 
     private void initBall() {
-        this.x = (int)(Math.random()*Board.boardwidght+1);
-        this.y = (int)(Math.random()*Board.boardheight+1);
+        this.x = (int)(Math.random()*(Board.boardwidght-ballsize/2)+1);
+        this.y = (int)(Math.random()*(Board.boardheight-ballsize/2)+1);
 
         this.dirx = rand[(int)(Math.random()*rand.length)];
         this.diry = rand[(int)(Math.random()*rand.length)];
